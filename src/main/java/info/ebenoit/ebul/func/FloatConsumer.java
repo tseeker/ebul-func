@@ -25,7 +25,7 @@ public interface FloatConsumer
 	 * @param value
 	 *            the input argument
 	 */
-	public void accept( float t );
+	public void accept( float value );
 
 
 	/**
