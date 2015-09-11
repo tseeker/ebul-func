@@ -12,8 +12,9 @@ package info.ebenoit.ebul.func;
  * @param <T>
  *            the type of the object argument to the operation
  *
- * @see BiConsumer
- * @since 1.8
+ * @see java.util.function.BiConsumer
+ *
+ * @author <a href="mailto:ebenoit@ebenoit.info">E. Benoît</a>
  */
 @FunctionalInterface
 public interface ObjFloatConsumer< T >
