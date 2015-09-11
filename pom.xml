@@ -7,6 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>E.B.'s utility libraries - Functional interfaces</name>
 	<description>Various utilities related to Java 8's functional interfaces. This includes interfaces for functions that can throw exceptions.</description>
+	<url>https://github.com/tseeker/ebul-func</url>
+
 	<licenses>
 		<license>
 			<name>GNU Lesser General Public License, version 3.0</name>
@@ -14,10 +16,26 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-	<organization>
-		<name>Emmanuel Benoît</name>
-		<url>http://www.ebenoit.info</url>
-	</organization>
+
+	<developers>
+		<developer>
+			<name>Emmanuel Benoît</name>
+			<url>http://www.ebenoit.info</url>
+			<email>ebenoit@ebenoit.info</email>
+			<id>tseeker</id>
+		</developer>
+	</developers>
+
+	<scm>
+		<url>https://github.com/tseeker/ebul-func</url>
+		<connection>scm:git:git://github.com/tseeker/ebul-func.git</connection>
+		<developerConnection>scm:git:git@github.com:tseeker/ebul-func</developerConnection>
+	</scm>
+
+	<issueManagement>
+		<url>https://github.com/tseeker/ebul-func/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,6 +50,28 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
