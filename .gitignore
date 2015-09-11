@@ -1,0 +1,13 @@
+/.metadata/*
+
+/**/.classpath
+/**/.project
+/**/.settings/
+
+/**/log/
+/**/target/
+/**/*.log
+
+/**/.attach_pid*
+
+/**/pom.xml.versionsBackup
