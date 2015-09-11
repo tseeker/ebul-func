@@ -4,7 +4,7 @@
 
 	<groupId>info.ebenoit</groupId>
 	<artifactId>ebul-func</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>E.B.'s utility libraries - Functional interfaces</name>
 	<description>Various utilities related to Java 8's functional interfaces. This includes support for the float primitive type as well as versions of all interfaces capable of rethrowing checked exceptions as runtime exceptions.</description>
 	<url>https://github.com/tseeker/ebul-func</url>
